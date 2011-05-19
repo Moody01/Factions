@@ -55,7 +55,7 @@ public class FCommandClaim extends FBaseCommand {
 		}
 		
 		if (otherFaction.isNone()) {
-			myFaction.sendMessage(me.getNameAndRelevant(myFaction)+Conf.colorSystem+" claimed some new land :D");
+			myFaction.sendMessage(me.getNameAndRelevant(myFaction)+Conf.colorSystem+" Obsadil si nove uzemi");
 		} else { //if (otherFaction.isNormal()) {
 			
 			if ( ! otherFaction.hasLandInflation()) {
